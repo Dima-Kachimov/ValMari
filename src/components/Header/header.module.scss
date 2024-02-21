@@ -1,0 +1,39 @@
+header {
+  border-bottom: 1px solid rgba(85, 166, 48, 0.5);
+}
+.wrap_logo_contact {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 60px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 11px;
+}
+.logo_desc {
+  padding-top: 5px;
+}
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.phone_number {
+  color: rgb(66, 66, 66);
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.social {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+.language {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
