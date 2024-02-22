@@ -1,4 +1,8 @@
 header {
+}
+// header top
+
+.header_top {
   border-bottom: 1px solid rgba(85, 166, 48, 0.5);
 }
 .wrap_logo_contact {
@@ -36,4 +40,21 @@ header {
   display: flex;
   align-items: center;
   gap: 14px;
+}
+
+// header nav
+
+nav {
+  padding: 20px 0;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  li {
+    font-weight: 500;
+    color: #424242;
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
