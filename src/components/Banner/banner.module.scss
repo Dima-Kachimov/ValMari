@@ -1,0 +1,56 @@
+.banner {
+  background-color: #ECFFEB;
+}
+.wrap {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+}
+.content {
+  max-width: 590px;
+  padding: 66px 0 133px;
+  z-index: 1;
+
+  h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #424242;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 65px;
+    color: #55A630;
+    line-height: 65px;
+    margin: 0px 0px 20px 0px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 23px;
+    color: #424242;
+    font-weight: 500;
+    margin-bottom: 57px;
+  }
+  .buttons{
+    display: flex;
+    gap: 20px;
+  }
+  button {
+    width: 285px;
+    height: 65px;
+    background-color: #55A630;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+}
+.images {
+  position: absolute;
+  bottom: 0;
+  right: -15px;
+  img {
+  }
+}

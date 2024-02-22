@@ -27,7 +27,7 @@ const Header = () => {
           <div className={s.wrap_logo_contact}>
             <div className={s.logo}>
               <img
-                  src="../public/images/logo.webp"
+                  src="../public/images/header/logo.webp"
                   alt="logo"
                   width={62}
                   height={62}
